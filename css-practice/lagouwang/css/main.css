@@ -1,0 +1,37 @@
+* {
+  background: rgba(0, 0, 0, 0.1);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.container {
+  margin: 0 auto;
+  display: block;
+  width: 1200px;
+}
+header .top-header {
+  height: 30px;
+  background: #333333;
+  font-size: 14px;
+  line-height: 30px;
+}
+header .top-header .fl a {
+  color: #c4c3c3;
+}
+header .top-header .fl a .app-coin span {
+  background: url("../img/app_icon.png");
+  color: #08d7a2;
+  float: left;
+  width: 10px;
+  height: 15px;
+  margin: 7.5px 7px 7.5px 10px;
+}

@@ -1,0 +1,240 @@
+//公用样式
+*{
+    background: rgba(0,0,0,.1);
+}
+a{
+    text-decoration: none;
+    color: #656565;
+}
+ul{
+    list-style: none;
+}
+input{
+    border: 0;
+    box-sizing: border-box;
+}
+//公用容器
+.container{
+    display: block;
+    margin: 0 auto;
+    width: 1080px;
+}
+//浮动
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+//清除浮动
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+// headerBar topBar
+.headerBar{
+    min-width:1080px;
+}
+.headerBar .topBar{
+    height:30px;
+    background: #f7f7f7;
+    line-height: 30px;
+    font-size: 12px;
+}
+.topBar a:hover{
+    color:red;
+}
+.headerBar .topBar .fl{
+    font-weight:bold;
+}
+.headerBar .topBar .fl a{
+    background: url("../img/1.gif") left center no-repeat;
+    padding-left:15px;
+}
+
+//headerBar logoBar
+.headerBar .logoBar{
+    height: 85px;
+    background: #1d7ad9;
+    color:#ffffff;
+}
+.headerBar .logoBar .logo{
+    padding-top: 12.5px; 
+    padding-left:41px;
+    float: left;
+}
+
+.headerBar .logoBar .searchBar{
+    width:430px;
+    padding-left:185px;
+    padding-top:23px;
+}
+.headerBar .searchBar .search-input{
+    width: 350px;
+    height: 35px;
+    padding: 0 5px;
+}
+.headerBar .searchBar .search-btn{
+    height: 35px;
+    width: 80px;
+    background: #ff8c00;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+}
+.headerBar .logoBar .cart{
+    width: 135px;
+    height: 35px;
+    background: #ff8c00;
+    margin-top:23px;
+    margin-right: 59px;
+}
+.headerBar .cart .cartText{
+    height: 100%;
+    width: 87px;
+    border-right: #E27A00 solid 1px;
+}
+
+
+.headerBar .cart .cartText a{
+    font-size: 14px;
+    line-height: 35px;
+    color:#fff;
+    background: url("../img/cart_10.jpg") 10px center no-repeat;
+   padding-left:40px;
+}
+
+.headerBar .cart .cartNum{
+    width: 45px;
+    height: 35px;
+    line-height: 35px;
+    background: url("../img/cart_11.jpg") 20px center no-repeat ;
+    border-left:#FF9C01 solid 1px;
+    font-size: 14px;
+    color: #fff;
+    text-indent: 10px;
+    
+}
+//导航栏
+.navBar{
+    height: 35px;
+    background: #1369c0;
+    color: #fff;
+}
+.navBar .shopClass{
+
+    width: 190px;
+    line-height: 35px;
+    text-align: center;
+}
+.navBar h3{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar .shopClass i{
+    width: 15px;
+    height: 12px;
+    overflow: hidden;
+    background: url("../img/cion_03.jpg") left center no-repeat ;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav{
+    line-height: 35px;
+    margin: 0;
+}
+.nav li{
+    float: left;
+    // display: inline-block;
+    margin:0;
+    height: 35px;
+    padding: 0 35px;
+}
+.nav a{
+  
+    color: #FFF;
+}
+.nav .active,
+.nav li:hover{
+    background: #4593Fd;
+}
+// banner部分
+.bannerBar {
+    width: 810px;
+    height: 326px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.bannerBar .imgBox{
+    padding: 0;
+    margin: 0;
+    width: 1620px;
+    height: 326px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.imgBox li{
+    float: left; 
+}
+.imgBox img{
+    width: 810px;
+    height: 326px;
+    display: block;
+}
+.bannerBar .imgNum{
+    position:absolute;
+    left:0;
+    bottom:15px;
+    width: 100%;
+    text-align: center;
+}
+.bannerBar .imgNum a{
+    width: 20px;
+    height: 5px;
+    overflow: hidden;
+    background: #FFF;
+    display: inline-block;
+    margin: 0 3px;
+}
+.bannerBar .imgNum .imgActive{
+    background: #FF7700;
+}
+
+// 卡片
+.shopTit{
+    height: 44px;
+    line-height: 44px;
+}
+.shopTit h3{
+    font-size: 24px;
+    float: left;
+    font-weight: normal;
+    padding-left:15px;
+    margin:0;
+}
+.shopTit .icon{
+    width: 44px;
+    height: 44px;
+    background: url("../img/1_07.jpg") left top no-repeat;
+    float:left;
+}
+
+.more{
+    float:right;
+    font-family: "宋体";
+}
+.more:hover{
+    text-decoration: underline;
+}
+
+
+
+

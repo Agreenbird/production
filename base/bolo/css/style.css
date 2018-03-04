@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding:0;
+}
+ul{
+    padding:0;
+    margin:0;
+}
+ul li{
+    list-style-type: none;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background: #fafafa;
+    border-bottom:1px solid #dadada;
+    line-height: 40px;
+}
+.container{
+    margin:0 auto;
+    width:1100px;
+}
+.header .logo{
+    float:left;
+}
+.header #member{
+    float:right;
+    width: 100px;
+    height: 40px;
+    background:  url(../images/down.png) no-repeat  60px center;
+    position: relative;
+}
+.header ul{
+    position:absolute;
+    top:41px;
+    left:-25px;
+    width: 150px;
+    height: 200px;
+    border: 1px solid #dadada;
+    border-top:none;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #fbf7e1;
+    padding-top:10px;
+    display: none;
+}
+.header ul li{
+    display: block;
+    height: 50px;
+    line-height: 45px;
+   text-indent: 30px;
+}
+.header li a{
+    display: block;
+    text-decoration: none;
+    color:#333;
+
+}
+.header li a:hover{
+    background: #fc0;
+}
+.header #login{
+    width: 40px;
+    float:right;
+    height:40px;
+    margin-right:20px;
+    cursor:pointer;
+}
+#loginBox{
+    width: 350px;
+    height: 250px;
+    border:1px solid #ccc;
+    position: absolute;
+    display: none;
+    z-index: 999;
+    background: #fff;
+}
+#loginBox h2{
+    padding:0;
+    margin:0;
+    height:40px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    color:#666;
+    border-bottom:1px solid #ccc;
+    background: rgb(238, 237, 237);
+    position: relative;
+    cursor:move;
+}
+#loginBox img{
+    position:absolute;
+    top:5px;
+    right:5px;
+    cursor: pointer;
+}
+#loginBox img:hover{
+    background: rgb(255, 102, 0);
+}
+#loginBox div{
+    font-size: 14px;
+    color:#666;
+    padding:5px  0;
+    text-align: center;
+    margin:10px 0 0 0;
+}
+#loginBox  input.text{
+    width:200px;
+    height: 25px;
+    border:1px solid #ccc;
+    background: #fff;
+    font-size: 14px;
+}
+#loginBox input.submit{
+    width:107px;
+    height: 30px;
+    border-radius: 3px;
+    background: rgba(238, 116, 3, 0.856);
+    border:none;
+    color:#fff;
+    font-size: 14px;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+#loginBox #other{
+    text-align: right;
+    padding:20px 5px 10px 5px;
+    font-size: 12px;
+    color:#666;
+}
+#screen{
+    position: absolute;
+    background: #000;
+    top:0;
+    left:0;
+    z-index: 998;
+    opacity: 0.3;
+   display: none;
+}
+#banner{
+    width:400px;
+    height: 150px;
+    margin:10px 0;
+    position: relative;
+}
+#banner img{
+    display: block;
+    position:absolute;
+    
+    top:0;
+    left:0;
+}
+#banner ul{
+    position: absolute;
+    top:240px;
+    left:120px;
+    z-index: 4;
+}
+#banner ul li{
+    display: inline-block;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+#banner span{
+    width:500px;
+    height: 20px;
+    position: absolute;
+    top:294px;
+    left:0;
+    background:#333;
+    opacity: 0.7;
+}
+.r{
+    width:10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    position: absolute;
+    top:600px;
+    left: 800px;
+    background:red;
+}
+#banner strong{
+    position: absolute;
+    top:295px;
+    left:5px;
+    color:#fff;
+    z-index: 4;
+}
